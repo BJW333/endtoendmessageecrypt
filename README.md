@@ -51,17 +51,29 @@ Configuration
 Both the client and server scripts can be configured by modifying the following parameters inside the code:
 
 Server IP address: Specify the IP address of the server to which the client should connect.
+
 Port: Ensure the port in both the client and server scripts matches for successful communication.
+
 SSL/TLS (optional): If using SSL/TLS for secure communication, ensure the proper certificates are set up.
+
 Example Workflow
+
 Start the server:
+
 bash
+
 Copy code
+
 python endtoendserver.py
+
 Run the client to connect to the server:
+
 bash
+
 Copy code
+
 python endtoendclientcopy.py
+
 The client will send a message (or data) to the server, and the server will receive it, process it, and potentially send a response back to the client.
 
 Notes
