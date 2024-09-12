@@ -28,6 +28,7 @@ Usage
 -------------
 
 1. Running the Server
+   
 The server script should be started first to listen for incoming connections from the client.
 
 bash
@@ -36,6 +37,7 @@ python endtoendserver.py
 This script listens on a specified port (defined in the code) for any incoming connection requests from the client.
 
 2. Running the Client
+   
 Once the server is running, you can initiate the client script to connect to the server and send data.
 
 bash
